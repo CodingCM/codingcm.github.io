@@ -15,7 +15,7 @@ header:
       # @end locale config
     url: /ai/index.html
 
-tool:                                                    # 目录 ID，唯一
+TOOL:                                                    # 目录 ID，唯一
   - title:      记录                                      # 一级目录名字
     children:
       - title:  Git                                      # 二级目录名字

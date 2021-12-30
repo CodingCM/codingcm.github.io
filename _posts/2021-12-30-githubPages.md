@@ -11,5 +11,5 @@ category: [toolswiki, git]
 
 通过 `git clone https://github.com/username/username.github.io.git`将仓库下载到本地，即可在本地自定义网页或进行wiki记录。在完成相关编辑后，可以使用jekyll先在本地进行调试再push至github仓库。具体方法可以参考模板[安装教程](https://tianqi.name/jekyll-TeXt-theme/docs/zh/quick-start)中的**本地预览**章节以及Github Pages官方提供的[Jekyll安装教程](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)。
 
-注：第一次进行本地仓库与GitHub远程仓库关联可以参考此Wiki进行配置。
+注：第一次进行本地仓库与GitHub远程仓库关联可以参考[此Wiki](https://codingcm.github.io/toolswiki/git/2021/12/30/githubKey.html)进行配置。
 
