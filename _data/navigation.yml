@@ -22,3 +22,5 @@ TOOL:                                                    # 目录 ID，唯一
         url:    /toolswiki/git.html    # 二级目录链接（此处填写我们上一步写好的分类页面）
       - title:  Linux指令
         url:    /toolswiki/linux.html
+      - title:  其它
+        url:    /toolswiki/other.html
