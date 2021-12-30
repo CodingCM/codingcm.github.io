@@ -1,7 +1,7 @@
 header:
   - titles:
       # @start locale config
-      en      : &EN       Record
+      en      : &EN       工具Wiki
       zh-Hans : &ZH_HANS  记录
       zh      : *ZH_HANS
       # @end locale config
