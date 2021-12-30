@@ -1,11 +1,11 @@
 header:
   - titles:
       # @start locale config
-      en      : &EN       工具Wiki
-      zh-Hans : &ZH_HANS  记录
+      en      : &EN       Tools Wiki
+      zh-Hans : &ZH_HANS  工具Wiki
       zh      : *ZH_HANS
       # @end locale config
-    url: /toolwiki/index.html
+    url: /toolswiki/index.html
 
   - titles:
       # @start locale config
@@ -16,9 +16,9 @@ header:
     url: /ai/index.html
 
 TOOL:                                                    # 目录 ID，唯一
-  - title:      记录                                      # 一级目录名字
+  - title:      工具Wiki                                      # 一级目录名字
     children:
       - title:  Git                                      # 二级目录名字
-        url:    /toolwiki/git.html    # 二级目录链接（此处填写我们上一步写好的分类页面）
+        url:    /toolswiki/git.html    # 二级目录链接（此处填写我们上一步写好的分类页面）
       - title:  Linux指令
-        url:    /toolwiki/linux.html
+        url:    /toolswiki/linux.html
