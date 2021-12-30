@@ -1,50 +1,24 @@
 header:
   - titles:
       # @start locale config
-      en      : &EN       Archive
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  归档
+      en      : &EN       Record
+      zh-Hans : &ZH_HANS  记录
       zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  歸檔
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       아카이브
-      ko-KR   : *KO
-      fr      : &FR       Archives
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
       # @end locale config
-    url: /archive.html
+    url: /toolwiki/index.html
 
   - titles:
       # @start locale config
-      en      : &EN       About
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
+      en      : &EN       AI
+      zh-Hans : &ZH_HANS  AI
       zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       소개
-      ko-KR   : *KO
-      fr      : &FR       À propos
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
       # @end locale config
-    url: /about.html
+    url: /ai/index.html
+
+tool:                                                    # 目录 ID，唯一
+  - title:      记录                                      # 一级目录名字
+    children:
+      - title:  Git                                      # 二级目录名字
+        url:    /toolwiki/git.html    # 二级目录链接（此处填写我们上一步写好的分类页面）
+      - title:  Linux指令
+        url:    /toolwiki/linux.html
