@@ -47,7 +47,7 @@ Host second.github.com  #这里进行了自定义
 
 ```shell
 $ cd repo  # 进入clone的本地仓库
-$ git config --local -e
+$ git config --local -e # 等价于修改.git/config文件
 ```
 
 需要将以下`[remote "origin"]'部分下的url进行修改
@@ -55,7 +55,7 @@ $ git config --local -e
 ```shell
  [remote "origin"]
           url = ssh://git@github.com/username/username.github.io.git
-          #（1）将http协议修改为ssh协议；（2）用户为git；（3）将Host部分默认的githu.comb修改为自己所设置的Host（无特殊需要不必修改）。
+          #（1）将http协议修改为ssh协议；（2）用户为git；（3）将Host部分默认的github.com修改为自己所设置的Host（无特殊需要不必修改）。
 ```
 
 
