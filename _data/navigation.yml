@@ -14,6 +14,13 @@ header:
       zh      : *ZH_HANS
       # @end locale config
     url: /ai/index.html
+  - titles:
+      # @start locale config
+      en      : &EN       Coding
+      zh-Hans : &ZH_HANS  编程
+      zh      : *ZH_HANS
+      # @end locale config
+    url: /coding/index.html
 
 TOOL:                                                    # 目录 ID，唯一
   - title:      工具Wiki                                      # 一级目录名字
@@ -24,3 +31,19 @@ TOOL:                                                    # 目录 ID，唯一
         url:    /toolswiki/linux.html
       - title:  其它
         url:    /toolswiki/other.html
+
+CODING:                                                    # 目录 ID，唯一
+  - title:      编程                                      # 一级目录名字
+    children:
+      - title:  Python                                      # 二级目录名字
+        url:    /coding/python.html    # 二级目录链接（此处填写我们上一步写好的分类页面）
+      - title:  C++
+        url:    /coding/cpp.html
+      - title:  HTML
+        url:    /coding/html.html
+
+AI:                                                    # 目录 ID，唯一
+  - title:     AI                                      # 一级目录名字
+    children:
+      - title:  Paper阅读记录                                      # 二级目录名字
+        url:    /ai/paper.html    # 二级目录链接（此处填写我们上一步写好的分类页面）

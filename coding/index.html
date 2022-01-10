@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       Coding
+    zh:       编程
+    zh-Hans:  编程
+    zh-Hant:  编程
+sidebar:
+    nav: CODING
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "coding" %}
+            {% for post in cat[1] %}
+            {{post.date | date:"%Y.%m.%d"}}
+            <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+            <br>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>
