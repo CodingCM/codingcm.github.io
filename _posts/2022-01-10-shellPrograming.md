@@ -206,7 +206,20 @@ hello
 3
 ```
 
+#### （4）遍历文件中的内容
 
+遍历文件中的内容可以采用**输入重定向**的方式来获取文件文件内容（输入输出重定向可以参考[此文](https://codingcm.github.io/toolswiki/linux/2022/01/11/shellRedirection.html)），如：
+
+```shell
+#!/bin/sh
+
+for s in $(<log.txt) 
+do
+echo $s
+done
+```
+
+注意，`log.txt`中的**空格**和**换行符**都将成为切分文本的标记符号。
 
 ### 2. while循环
 

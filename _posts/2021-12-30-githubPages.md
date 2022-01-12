@@ -7,7 +7,7 @@ sidebar:
 
 ## 1 新建Github仓库
 
-本Wiki网页模板为[JEKYLL-TEXT-THEME](https://github.com/kitian616/jekyll-TeXt-theme)。根据该项目提供的[安装教程](https://tianqi.name/jekyll-TeXt-theme/docs/zh/quick-start)，直接fork该项目，并修改仓库名称为自己的github（以username为例）用户名即可通过访问username.github.io来访问自己的Github Pages。
+本Wiki网页模板为[JEKYLL-TEXT-THEME](https://github.com/kitian616/jekyll-TeXt-theme)。根据该项目提供的[安装教程](https://tianqi.name/jekyll-TeXt-theme/docs/zh/quick-start)，直接fork该项目，并修改仓库名称为自己的github用户名（以username为例）即可通过访问username.github.io来访问自己的Github Pages。
 
 ## 2 关联本地仓库
 
