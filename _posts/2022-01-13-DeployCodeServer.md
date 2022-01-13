@@ -88,7 +88,7 @@ $ sudo systemctl enable code-server
 首先通过下方命令新建关于code-server的nginx配置文件
 
 ```shell
-sudo vim /etc/nginx/sites-available/code-server
+$ sudo vim /etc/nginx/sites-available/code-server
 ```
 
 配置文件中的内容如下：
@@ -137,7 +137,7 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 
 执行以下命令重启nginx服务：
 
-```SHELL
+```shell
 $ sudo systemctl restart nginx
 ```
 
