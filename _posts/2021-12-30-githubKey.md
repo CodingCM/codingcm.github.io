@@ -28,7 +28,7 @@ $ vim ~/.ssh/config
 ```shell
 Host github.com
     Hostname        github.com
-    IdentityFile    ~/.ssh/id_rsa.pub
+    IdentityFile    ~/.ssh/id_rsa
     IdentitiesOnly yes
 ```
 
