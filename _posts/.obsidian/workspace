@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "92476f5df53af009",
+    "type": "split",
+    "children": [
+      {
+        "id": "5dd2cedbc5742c0b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2022-01-13-DeployCodeServer.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aca882d32b49e80b",
+    "type": "split",
+    "children": [
+      {
+        "id": "457557c03d9f3103",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80bfddd1e4673ec6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4091f0eb2e243272",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9f209c94c37508c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c3dad65df129436",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f91eea1cb15a25c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2022-01-13-DeployCodeServer.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5dd2cedbc5742c0b",
+  "lastOpenFiles": [
+    "2022-01-13-DeployCodeServer.md",
+    "2022-01-11-shellRedirection.md",
+    "2022-01-10-shellPrograming.md",
+    "2021-12-31-Linux_tar.md",
+    "2021-12-30-htmlBasic.md",
+    "2021-12-30-githubPages.md",
+    "2021-12-30-githubKey.md"
+  ]
+}
