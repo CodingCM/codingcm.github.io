@@ -41,9 +41,10 @@ WantedBy=default.target
 ```
 
 其中：
+
 （1）`Environment=PASSWORD=your_password`中的`your_password`要设置为自己的密码；
 
-（2）`ExecStart`表示服务将要启动的可执行程序；其选项`--bind-addr`是该服务所对应的本地地址，`8088`是自定义的端口号，选择一个未使用的端口号即可。后续启动nginx服务时，其代理的本地地址需要与这里一致。`--auth password`表示通过密码的方式访问code-server。
+（2）`ExecStart`表示服务将要启动的可执行程序；其选项`--bind-addr`是该服务所对应的本地IP，`8088`是自定义的端口号，选择一个未使用的端口号即可。这种配置方式只适用于code-server服务与Nginx服务在同一台机器上的情况。后续启动nginx服务时，其代理的本地地址需要与这里一致。`--auth password`表示通过密码的方式访问code-server。
 然后，通过以下命令启动code-server服务
 
 ```shell
